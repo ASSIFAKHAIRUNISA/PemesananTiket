@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berhasil Mendapatkan Tiket"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_verified_24"
+        android:layout_marginBottom="24dp" />
+
+    <!-- TextView Nama hingga Tujuan, diatur untuk rata kiri -->
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama: "
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvJam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jam: "
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal: "
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvTujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tujuan: "
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="start" />
+
+</LinearLayout>
